@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_Date_Reason_Missing</fullName>
+    <active>true</active>
+    <description>Return Date and return reason cant be empty when status of order is returned.</description>
+    <errorConditionFormula>((ISBLANK(Returned_Date__c) || ISBLANK(TEXT( Returned_Reason__c) )  ) &amp;&amp; ISPICKVAL(Status__c, &apos;Returned&apos;))</errorConditionFormula>
+    <errorMessage>When a order is return, Return Date and Return Reason should be selected</errorMessage>
+</ValidationRule>

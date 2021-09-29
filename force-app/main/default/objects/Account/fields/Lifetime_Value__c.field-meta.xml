@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lifetime_Value__c</fullName>
+    <description>Total amount of orders/Business done with the Account, consider only New, Shipped &amp; Delivered orders.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total Business done with the Account for New, Shipped &amp; Delivered orders.</inlineHelpText>
+    <label>Lifetime Value</label>
+    <summarizedField>Order_Detail__c.Total_Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Order_Detail__c.Status__c</field>
+        <operation>equals</operation>
+        <value>New, Shipped, Delivered</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Order_Detail__c.Employer__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <type>Summary</type>
+</CustomField>

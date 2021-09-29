@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Done__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NULLVALUE(Paid_Amount__c,0) = 0,&apos;Not Paid&apos;, IF(NULLVALUE( Balance_Amount__c ,0) &gt; 0 ,&apos;Partially Paid&apos;, &apos;Fully Paid&apos;))</formula>
+    <label>Payment Done</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipping_Date_Required</fullName>
+    <active>true</active>
+    <description>Shipping_Date_Required whe order is shipped, Delivered, Returned.</description>
+    <errorConditionFormula>(ISBLANK(Shipped_Date__c)  &amp;&amp; (ISPICKVAL(Status__c, &apos;Shipped&apos;) || ISPICKVAL(Status__c, &apos;Delivered&apos;) || ISPICKVAL(Status__c, &apos;Returned&apos;)))</errorConditionFormula>
+    <errorDisplayField>Shipped_Date__c</errorDisplayField>
+    <errorMessage>Provide Shipping Date for orders which are Shipped, Delivered or Returned.</errorMessage>
+</ValidationRule>

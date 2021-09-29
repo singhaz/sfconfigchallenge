@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Done__c</fullName>
+    <description>Status of the payment for placed order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Payment status for order placed</inlineHelpText>
+    <label>Payment Done</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fully Paid</fullName>
+                <default>false</default>
+                <label>Fully Paid</label>
+            </value>
+            <value>
+                <fullName>Partially Paid</fullName>
+                <default>false</default>
+                <label>Partially Paid</label>
+            </value>
+            <value>
+                <fullName>Not Paid</fullName>
+                <default>true</default>
+                <label>Not Paid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipping_Address__c</fullName>
+    <description>Shipping Address for the placed order</description>
+    <externalId>false</externalId>
+    <formula>Ship_To_Contact__r.MailingStreet  + &apos; &apos; +  Ship_To_Contact__r.MailingCity + &apos; &apos; +  Ship_To_Contact__r.MailingState + &apos; &apos; +  Ship_To_Contact__r.MailingPostalCode + &apos; &apos; + Ship_To_Contact__r.MailingCountry</formula>
+    <inlineHelpText>The placed order shall be shipped to selected Address</inlineHelpText>
+    <label>Shipping Address</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

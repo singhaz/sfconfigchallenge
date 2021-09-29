@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Amount__c</fullName>
+    <description>Amount paid by customer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Amount paid for an order</inlineHelpText>
+    <label>Payment Amount</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

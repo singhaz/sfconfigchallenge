@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ship_To_Contact__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Ship the placed order to the selected contact</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the contact where it needs to be shipped</inlineHelpText>
+    <label>Ship To Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Order Details (Ship To Contact)</relationshipLabel>
+    <relationshipName>Order_Details1</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

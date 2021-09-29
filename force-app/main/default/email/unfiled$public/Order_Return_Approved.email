@@ -1,0 +1,5 @@
+Dear {!Order_Detail__c.Bill_To_Contact__c},
+
+Your request to return order {!Order_Detail__c.Name} for a total of {!Order_Detail__c.Total_Amount__c} is accepted and we will initiate the refund in 7 working days.
+
+Regards,

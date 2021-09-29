@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wrong_Bill_to_Contact_Employer</fullName>
+    <active>true</active>
+    <errorConditionFormula>Bill_To_Contact__r.AccountId != Employer__c</errorConditionFormula>
+    <errorDisplayField>Employer__c</errorDisplayField>
+    <errorMessage>Select correct Employer for the Billed Contact</errorMessage>
+</ValidationRule>

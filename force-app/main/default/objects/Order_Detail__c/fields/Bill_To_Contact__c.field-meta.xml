@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_To_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Billing Address for the order placed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The placed order will be billed to this address.</inlineHelpText>
+    <label>Bill To Contact</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Billing contact should always belongs to the employer account</errorMessage>
+        <filterItems>
+            <field>Contact.AccountId</field>
+            <operation>equals</operation>
+            <valueField>$Source.Employer__c</valueField>
+        </filterItems>
+        <infoMessage>Select Employer</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Order Details</relationshipLabel>
+    <relationshipName>Order_Details</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
