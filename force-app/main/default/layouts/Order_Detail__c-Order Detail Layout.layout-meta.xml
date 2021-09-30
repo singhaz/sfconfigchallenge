@@ -27,16 +27,12 @@
                 <field>Status__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Order_Date__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Total_Amount__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Order_Date1__c</field>
+                <field>Order_Date__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

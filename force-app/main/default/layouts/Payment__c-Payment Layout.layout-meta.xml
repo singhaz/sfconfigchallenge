@@ -42,6 +42,10 @@
                 <behavior>Readonly</behavior>
                 <field>Transaction_id__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Employer1__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

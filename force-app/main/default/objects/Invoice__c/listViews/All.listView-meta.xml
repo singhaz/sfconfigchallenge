@@ -3,6 +3,7 @@
     <fullName>All</fullName>
     <columns>Employer__c</columns>
     <columns>NAME</columns>
+    <columns>Balance_Amount__c</columns>
     <columns>Due_Date__c</columns>
     <columns>Invoice_Date__c</columns>
     <columns>No_of_Payments__c</columns>

@@ -205,8 +205,9 @@
     </actionCalls>
     <apiVersion>52.0</apiVersion>
     <assignments>
+        <description>Balance amount initially is assigned total amount value so now subtract the paid amount to get balance amount</description>
         <name>sc_0</name>
-        <label>sc</label>
+        <label>Calculate Balance Amount</label>
         <locationX>50</locationX>
         <locationY>671</locationY>
         <assignmentItems>
