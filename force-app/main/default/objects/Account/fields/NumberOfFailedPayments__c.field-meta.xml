@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumberOfFailedPayments__c</fullName>
+    <description>Total failed payments on an account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Auto calculated based on total number of failure payments attempts in Payment for an account</inlineHelpText>
+    <label>NumberOfFailedPayments</label>
+    <summaryFilterItems>
+        <field>Payment__c.Status__c</field>
+        <operation>equals</operation>
+        <value>failure</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Payment__c.Employer1__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <type>Summary</type>
+</CustomField>

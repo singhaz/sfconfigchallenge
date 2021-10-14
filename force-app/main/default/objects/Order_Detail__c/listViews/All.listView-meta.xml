@@ -3,6 +3,7 @@
     <fullName>All</fullName>
     <columns>Bill_To_Contact__c</columns>
     <columns>NAME</columns>
+    <columns>Ship_To_Contact__c</columns>
     <columns>Employer__c</columns>
     <columns>Invoiced__c</columns>
     <columns>Total_Amount__c</columns>
