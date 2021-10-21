@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 20717,
+  "serverMaxRevisionCounter": 20765,
   "sourceMembers": {
     "ListView__Invoice__c.All": {
       "serverRevisionCounter": 20418,
@@ -362,8 +362,8 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 20633,
-      "lastRetrievedFromServer": 20633,
+      "serverRevisionCounter": 20719,
+      "lastRetrievedFromServer": 20719,
       "memberType": "Profile",
       "isNameObsolete": false
     },
@@ -782,8 +782,8 @@
       "isNameObsolete": false
     },
     "ApexClass__ScheduleFailedPaymentEmailTest": {
-      "serverRevisionCounter": 20557,
-      "lastRetrievedFromServer": 20557,
+      "serverRevisionCounter": 20765,
+      "lastRetrievedFromServer": 20765,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
@@ -806,20 +806,20 @@
       "isNameObsolete": true
     },
     "ApexClass__TestContactTrigger": {
-      "serverRevisionCounter": 20717,
-      "lastRetrievedFromServer": 20717,
+      "serverRevisionCounter": 20750,
+      "lastRetrievedFromServer": 20750,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
     "ApexClass__ContactTriggerHelper": {
-      "serverRevisionCounter": 20713,
-      "lastRetrievedFromServer": 20713,
+      "serverRevisionCounter": 20764,
+      "lastRetrievedFromServer": 20764,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
     "ApexClass__ContactTriggerHandler": {
-      "serverRevisionCounter": 20715,
-      "lastRetrievedFromServer": 20715,
+      "serverRevisionCounter": 20763,
+      "lastRetrievedFromServer": 20763,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
@@ -830,20 +830,20 @@
       "isNameObsolete": true
     },
     "ApexClass__UserTriggerHandler": {
-      "serverRevisionCounter": 20675,
-      "lastRetrievedFromServer": 20675,
+      "serverRevisionCounter": 20755,
+      "lastRetrievedFromServer": 20755,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
     "ApexClass__UserTriggerHelper": {
-      "serverRevisionCounter": 20680,
-      "lastRetrievedFromServer": 20680,
+      "serverRevisionCounter": 20753,
+      "lastRetrievedFromServer": 20753,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
     "ApexClass__TestUserTrigger": {
-      "serverRevisionCounter": 20674,
-      "lastRetrievedFromServer": 20674,
+      "serverRevisionCounter": 20761,
+      "lastRetrievedFromServer": 20761,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
@@ -864,6 +864,18 @@
       "lastRetrievedFromServer": 20601,
       "memberType": "ApexTrigger",
       "isNameObsolete": false
+    },
+    "ApexClass__avoidRecursion": {
+      "serverRevisionCounter": 20724,
+      "lastRetrievedFromServer": 20724,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__AvoidRecursion": {
+      "serverRevisionCounter": 20721,
+      "lastRetrievedFromServer": 20721,
+      "memberType": "ApexClass",
+      "isNameObsolete": true
     }
   }
 }

@@ -19,4 +19,5 @@ public class ScheduleFailedPaymentEmailTest {
 		Test.stopTest();
 	}
     
+    
 }

@@ -48,9 +48,9 @@
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes",
     "isDirectory": true,
-    "modifiedTime": 1634154363455,
-    "changeTime": 1634154363455,
-    "contentHash": "6b737fa4c866d90ed916c1c2f938b8c44562625b",
+    "modifiedTime": 1634832072829,
+    "changeTime": 1634832072829,
+    "contentHash": "1ee50b46562033dd3e1098b88c65d17803cd0392",
     "state": "u",
     "package": "force-app"
   },
@@ -1343,10 +1343,10 @@
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
-    "size": 37543,
-    "modifiedTime": 1634154363452,
-    "changeTime": 1634154363452,
-    "contentHash": "c4b31fd8ea320bd70df88448924f47db0c33b0a8",
+    "size": 37662,
+    "modifiedTime": 1634832073043,
+    "changeTime": 1634832073043,
+    "contentHash": "c4be8b72ae7025eb258220a25da1e1e35cc55adc",
     "isMetadataFile": true,
     "state": "u",
     "package": "force-app",
@@ -2047,20 +2047,20 @@
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\ScheduleFailedPaymentEmailTest.cls": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\ScheduleFailedPaymentEmailTest.cls",
-    "size": 611,
-    "modifiedTime": 1634154363362,
-    "changeTime": 1634154363362,
-    "contentHash": "349c8273f3dfc87234a3f53f429c90983e32595a",
+    "size": 616,
+    "modifiedTime": 1634832072772,
+    "changeTime": 1634832072772,
+    "contentHash": "1160709c55bb51ea9c1524873022cd42ab63b4ff",
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexClass"
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\UserTriggerHandler.cls": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\UserTriggerHandler.cls",
-    "size": 2479,
-    "modifiedTime": 1634154363338,
-    "changeTime": 1634154363338,
-    "contentHash": "a18b57e760282589d27c22c1eee7c40725d0e1c6",
+    "size": 2825,
+    "modifiedTime": 1634832072725,
+    "changeTime": 1634832072725,
+    "contentHash": "e14b2e11728502cbe9da5fc6f3dc192afd7681e9",
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexClass"
@@ -2078,10 +2078,10 @@
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\ContactTriggerHelper.cls": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\ContactTriggerHelper.cls",
-    "size": 2323,
-    "modifiedTime": 1634154363344,
-    "changeTime": 1634154363344,
-    "contentHash": "deaa2e8d4c93cc1c55a220e1bd93e4da38c3df39",
+    "size": 2450,
+    "modifiedTime": 1634832072741,
+    "changeTime": 1634832072741,
+    "contentHash": "43b2aa09f35e8a049c39991a4251257631b8d45b",
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexClass"
@@ -2110,20 +2110,20 @@
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\TestContactTrigger.cls": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\TestContactTrigger.cls",
-    "size": 2954,
-    "modifiedTime": 1634154363350,
-    "changeTime": 1634154363350,
-    "contentHash": "7932dbc8ad0eda64f83241c11c9c8aa3b5eaa415",
+    "size": 2993,
+    "modifiedTime": 1634832072756,
+    "changeTime": 1634832072756,
+    "contentHash": "175f6f01615534968bc728d0246cee4d0a713a02",
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexClass"
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\UserTriggerHelper.cls": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\UserTriggerHelper.cls",
-    "size": 2270,
-    "modifiedTime": 1634154363367,
-    "changeTime": 1634154363367,
-    "contentHash": "5aeecb14ee6408ddbc9ca4856e25f7c69d9df7fa",
+    "size": 2385,
+    "modifiedTime": 1634832072786,
+    "changeTime": 1634832072786,
+    "contentHash": "9b1712e7644d7a71e49fd4de266896fd533f5b38",
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexClass"
@@ -2152,10 +2152,10 @@
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\ContactTriggerHandler.cls": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\ContactTriggerHandler.cls",
-    "size": 2677,
-    "modifiedTime": 1634154363373,
-    "changeTime": 1634154363373,
-    "contentHash": "6afc609de31fa14984f272860df3fc2957192199",
+    "size": 2834,
+    "modifiedTime": 1634832072803,
+    "changeTime": 1634832072803,
+    "contentHash": "469d03ebc5afc46bd4a36a73a61f7edcecd949ff",
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexClass"
@@ -2184,10 +2184,10 @@
   },
   "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\TestUserTrigger.cls": {
     "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\TestUserTrigger.cls",
-    "size": 2409,
-    "modifiedTime": 1634154363380,
-    "changeTime": 1634154363380,
-    "contentHash": "6f989504103acb11d3ff0092062a569b07bdac9d",
+    "size": 2913,
+    "modifiedTime": 1634832072818,
+    "changeTime": 1634832072818,
+    "contentHash": "6355dad4e081234091c35395098e09cbb70ecf64",
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexClass"
@@ -2222,5 +2222,26 @@
     "state": "u",
     "package": "force-app",
     "metadataType": "ApexTrigger"
+  },
+  "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\avoidRecursion.cls-meta.xml": {
+    "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\avoidRecursion.cls-meta.xml",
+    "size": 174,
+    "modifiedTime": 1634832072826,
+    "changeTime": 1634832072826,
+    "contentHash": "e2cbc796ec14b132b3b44146e384f1ecc17b052b",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "ApexClass"
+  },
+  "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\avoidRecursion.cls": {
+    "sourcePath": "C:\\SalesForce Tools\\GitRepo\\sfconfigchallenge\\force-app\\main\\default\\classes\\avoidRecursion.cls",
+    "size": 122,
+    "modifiedTime": 1634832072838,
+    "changeTime": 1634832072838,
+    "contentHash": "199190fa0ffd9ac63bf074b0ad3ac8c82f9dd922",
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "ApexClass"
   }
 }

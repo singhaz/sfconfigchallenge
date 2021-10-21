@@ -8,7 +8,7 @@ public class ContactTriggerHelper {
         {
             if(recordType_Map.get(con.recordTypeID).getName().containsIgnoreCase('VENDOR'))
             {
-                CreateTask('Send Welcome Email!',con.OwnerId,con.Id);
+                CreateTask('Send Welcome Email!', con.OwnerId, con.Id);
             }
         }
     }
@@ -20,11 +20,12 @@ public class ContactTriggerHelper {
                 ctask.WhoId  = WhoId;
                 insert ctask;
     }
-    @future
-    public Static Void SyncUserWithContact(String jsonString)
+    /*@future
+    public Static Void SyncUserWithContact(String jsonString)*/
+    public Static Void SyncUserWithContact(List<Contact> newContactList)
     {	
         System.debug('Aman in future ');
-         List<Contact> newContactList = (List<Contact>)System.JSON.deserialize(jsonString,List<Contact>.class);
+        // List<Contact> newContactList = (List<Contact>)System.JSON.deserialize(jsonString,List<Contact>.class);
         List<String> Email = new List<String>();
      
         for(Contact con : newContactList)
@@ -59,6 +60,7 @@ public class ContactTriggerHelper {
                 }     
             }
         }
+        avoidRecursion.isStartContact = true;
         Database.upsertResult[] upsertContact = Database.Upsert(Users,false);  
     }
     }

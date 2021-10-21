@@ -26,14 +26,25 @@ public class UserTriggerHandler implements ITriggerHandler {
     // Cast the Sobject[] to Account[]
     //AccountNameCheck((Account[])newItems);
     //UserTriggerHelper.SyncContactWithUser((List<User>)newItems, UserTriggerHelper.CheckDuplicateEmail((List<User>)newItems));
-    UserTriggerHelper.SyncContactWithUser((List<User>)newItems, true);
+    if(!avoidRecursion.isStartContact)
+    {
+        //avoidRecursion.isStartUser = true;
+      UserTriggerHelper.SyncContactWithUser((List<User>)newItems, true);
+    }
   }
 
   public void BeforeUpdate(Map<Id, SObject> newItems, Map<Id, SObject> oldItems) {
     // Cast the Map<Id, Sobject> to Account[]
+    System.Debug(' aman check isStartContact ' + avoidRecursion.isStartContact);
+if(!avoidRecursion.isStartContact)
+    {   
+    System.debug(' aman inside user trigger handler Update ');
     //AccountNameCheck((Account[])newItems.values());
     //UserTriggerHelper.SyncContactWithUser((List<User>)newItems.values(), UserTriggerHelper.CheckDuplicateEmail((List<User>)newItems.values()));
-    UserTriggerHelper.SyncContactWithUser((List<User>)newItems.values(), false);
+    
+     // avoidRecursion.isStartUser = true;
+      UserTriggerHelper.SyncContactWithUser((List<User>)newItems.values(), false);
+    }    
   }
 
   public void BeforeDelete(Map<Id, SObject> oldItems) {}

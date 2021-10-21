@@ -37,10 +37,13 @@ public class UserTriggerHelper {
                      ExistingContact.FirstName = usr.FirstName;
                      ExistingContact.LastName = usr.LastName;
                  }  
+                 
              }
+             //avoidRecursion.isStartUser = true;
          }else if(isInsert) 
          {   System.debug(' aman add new contact' + usr.FirstName + ' ' + usr.Email + ' ' + usr.LastName );		
              Contacts.add(new Contact(FirstName = usr.FirstName, LastName = usr.LastName, Email = usr.Email, RecordTypeId = '012N0000002LcVE')) ;
+         // avoidRecursion.isStartUser = true;
          }
      } 
      Database.upsertResult[] upsertContact = Database.Upsert(Contacts,false);  

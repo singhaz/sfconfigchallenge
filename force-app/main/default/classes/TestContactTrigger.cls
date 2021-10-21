@@ -22,7 +22,7 @@ public class TestContactTrigger {
         User UFName = [Select FirstName from User where Id = :newUser.id];
         //Contact CFName = [Select FirstName from Contact where Id = :newContact.id];
         
-        //System.assertEquals(true, (UFName.FirstName==newContact.FirstName)) ;
+        System.assertEquals(true, (UFName.FirstName==newContact.FirstName)) ;
         //System.assertEquals(true, true) ;
         
     }
@@ -51,7 +51,7 @@ public class TestContactTrigger {
         test.stopTest();
         User UFName = [Select FirstName from User where Id = :newUser.id];
         
-        //System.assertEquals(true, true) ;
+        System.assertEquals(true, (updateContactName.FirstName==UFName.FirstName)) ;
         
     }
     @isTest

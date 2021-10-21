@@ -25,21 +25,29 @@ public class ContactTriggerHandler implements ITriggerHandler {
   public void BeforeInsert(List<SObject> newItems) {
     // Cast the Sobject[] to Account[]
     //AccountNameCheck((Account[])newItems);
-    String jsonString = System.JSON.serialize(newItems);
-   // ContactTriggerHelper.SyncUserWithContact((List<Contact>)newItems);
+    if(!avoidRecursion.isStartUser)
+    {
+        ContactTriggerHelper.SyncUserWithContact((List<Contact>)newItems);
+    }   
+   /*String jsonString = System.JSON.serialize(newItems);
    if(System.IsBatch() == false && System.isFuture() == false){ 
      ContactTriggerHelper.SyncUserWithContact(jsonString);
-   }
+}*/
+   
   }
 
   public void BeforeUpdate(Map<Id, SObject> newItems, Map<Id, SObject> oldItems) {
     // Cast the Map<Id, Sobject> to Account[]
     //AccountNameCheck((Account[])newItems.values());
-    //ContactTriggerHelper.SyncUserWithContact((List<Contact>)newItems.values());
-    String jsonString = System.JSON.serialize(newItems.values());
+    if(!avoidRecursion.isStartUser)
+    {
+        //avoidRecursion.isStartContact = true;
+      ContactTriggerHelper.SyncUserWithContact((List<Contact>)newItems.values());
+    }
+    /*String jsonString = System.JSON.serialize(newItems.values());
       if(System.IsBatch() == false && System.isFuture() == false){ 
       ContactTriggerHelper.SyncUserWithContact(jsonString);
-      }
+      }*/
   }
 
   public void BeforeDelete(Map<Id, SObject> oldItems) {}
